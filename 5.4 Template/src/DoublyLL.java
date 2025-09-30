@@ -1,66 +1,52 @@
-public class DoublyLL extends ParentLL{
-    Node head;
-    
-    public void add(int index, int info){
+public class DoublyLL extends ParentLL {
 
-        //If the LL is currently empty
-        if(head == null && index == 0){
+    public void add(int index, String info) {
 
-        }
+        try {
 
-        //Otherwise...
-        try{
-            int count = 0;
-            Node currentNode = head;
+            // TODO WRITE YOUR CODE HERE, INSIDE THE TRY
 
-            //Loop up to the appropriate spot
-
-            //If adding at the end of the LL
-
-            //If adding in the middle of the LL
-        }
-        catch(Exception e){
-            System.out.println("Invalid index provided: add(" + index + ")");
+        } catch (Exception e) {
+            System.out.println("\u001B[31m" + this.getClass().getName() + " invalid index provided: add(" + index
+                    + ", \"" + info + "\")\u001B[30m");
         }
     }
 
-    public void remove(int index){
+    public void remove(int index) {
 
-        //If removing the first element
-        if(index == 0){
-            
-        }
+        try {
 
-        //Otherwise
-        try{
-            int count = 0;
-            Node currentNode = head;
+            // TODO WRITE YOUR CODE HERE, INSIDE THE TRY
 
-            //Loop up to the correct spot
-            
-            //If removing from the middle
-
-            //If removing from the end
-
-        }
-        catch(Exception e){
-            System.out.println("Invalid index provided: remove(" + index + ")");
+        } catch (Exception e) {
+            System.out.println("\u001B[31m" + this.getClass().getName() + " invalid index provided: remove(" + index
+                    + ")\u001B[30m");
         }
     }
 
-    public void printAll(){
-        Node currentNode = head;
+    public void printAll() {
+        try {
 
-        //Loop through, printing along the way
-            
+            // TODO WRITE YOUR CODE HERE, INSIDE THE TRY
+
+        } catch (Exception e) {
+            System.out.println("\u001B[31m" + this.getClass().getName() + " something went wrong in print()\u001B[30m");
+
+        }
+
     }
 
-    public void revPrintAll(){
-            Node currentNode = head;
+    public void revPrintAll() {
 
-            //Loop all the way to the back
+        try {
 
-            //Loop in reverse, printing along the way
+            // TODO WRITE YOUR CODE HERE, INSIDE THE TRY
+
+        } catch (Exception e) {
+            System.out.println(
+                    "\u001B[31m" + this.getClass().getName() + " something went wrong in revprint()\u001B[30m");
+
+        }
 
     }
 

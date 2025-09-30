@@ -1,60 +1,53 @@
-public class CDoublyLL extends ParentLL{
-    Node head;
+public class CDoublyLL extends ParentLL {
 
-    public void add(int index, int info){
-        //If the LL is currently empty
-        if(head == null && index == 0){
- 
-        }
+    public void add(int index, String info) {
 
-        //Otherwise...
-        try{
-            int count = 0;
-            Node currentNode = head;
+        try {
 
-            //Loop up to the correct spot
+            // TODO WRITE YOUR CODE HERE, INSIDE THE TRY
 
-            //Create and insert the new node
-            
-        }
-        catch(Exception e){
-            System.out.println("Invalid index provided: add(" + index + ")");
+        } catch (Exception e) {
+            System.out.println("\u001B[31m" + this.getClass().getName() + " invalid index provided: add(" + index
+                    + ", \"" + info + "\")\u001B[30m");
         }
     }
 
-    public void remove(int index){
-        //If removing the first node
-        if(index == 0){
+    public void remove(int index) {
 
-        }
+        try {
 
-        //Otherwise...
-        try{
-            int count = 0;
-            Node currentNode = head;
+            // TODO WRITE YOUR CODE HERE, INSIDE THE TRY
 
-            //Loop up to the correct spot
-
-            //Remove the node
-
-        }
-        catch(Exception e){
-            System.out.println("Invalid index provided: remove(" + index + ")");
+        } catch (Exception e) {
+            System.out.println("\u001B[31m" + this.getClass().getName() + " invalid index provided: remove(" + index
+                    + ")\u001B[30m");
         }
     }
 
-    public void printAll(){
-            Node currentNode = head;
+    public void printAll() {
 
-            //Loop through until you get back to head, printing along the way
+        try {
+
+            // TODO WRITE YOUR CODE HERE, INSIDE THE TRY
+
+        } catch (Exception e) {
+            System.out.println("\u001B[31m" + this.getClass().getName() + " something went wrong in print()\u001B[30m");
+
+        }
 
     }
 
-    public void revPrintAll(){
-        Node currentNode = head;
+    public void revPrintAll() {
+        try {
 
-        //Loop through in reverse until you get back to head, printing along the way
+            // TODO WRITE YOUR CODE HERE, INSIDE THE TRY
 
-}
+        } catch (Exception e) {
+            System.out.println(
+                    "\u001B[31m" + this.getClass().getName() + " something went wrong in revprint()\u001B[30m");
+
+        }
+
+    }
 
 }
