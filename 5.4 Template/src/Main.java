@@ -44,7 +44,7 @@ public class Main {
         list.add(10, "David");// invalid add (IOOB)
 
         System.out.println("\tExpected output:");
-        System.out.println("\t| Asher, Seth, Frank, Jasiah");
+        System.out.println("\t| Frank, Seth, Asher, Jasiah");
         System.out.println("\t| \u001B[31m" + list.getClass().getName() + " invalid index provided: add(" + 10
                 + ", \"" + "David" + "\")\u001B[30m");
 
